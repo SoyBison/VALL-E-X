@@ -1,0 +1,34 @@
+[project]
+name = "valle_x"
+version = "0.1.0"
+dependencies = [
+"soundfile",
+"numpy",
+"torch",
+"torchvision",
+"torchaudio",
+"tokenizers",
+"encodec",
+"langid",
+"wget",
+"unidecode",
+"pyopenjtalk-prebuilt",
+"pypinyin",
+"inflect",
+"cn2an",
+"jieba",
+"eng_to_ipa",
+"openai-whisper",
+"matplotlib",
+"gradio==3.41.2",
+"nltk",
+"sudachipy",
+"sudachidict_core",
+"vocos",
+]
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["data", "images", "models", "customs", "modules", "presets", "prompts", "nltk_data"]
